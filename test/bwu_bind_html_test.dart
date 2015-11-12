@@ -1,3 +1,4 @@
+@TestOn('browser')
 @HtmlImport('bwu_bind_html_test.html')
 library bwu_bind_html.test;
 
@@ -6,9 +7,10 @@ import 'dart:async' show Future;
 import 'package:web_components/web_components.dart' show HtmlImport;
 import 'package:polymer/polymer.dart';
 import 'package:test/test.dart';
-import 'test_element.dart';
 import 'package:bwu_bind_html/bwu_bind_html.dart';
+import 'test_element.dart';
 
+// Silence analyzer [TestElement]
 main() async {
   await initPolymer();
   test('content added to *local* DOM using HTML binding', () {
