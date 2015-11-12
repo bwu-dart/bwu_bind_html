@@ -3,5 +3,12 @@
   <template>
     <bwu-bind-html id="simpleLocal" html="[[simpleHtml]]"></bwu-bind-html>
     <bwu-bind-html id="simpleLight" use-light-dom html="[[simpleHtml]]"></bwu-bind-html>
+    <bwu-bind-html id="standardElement" use-light-dom html="[[standardElement]]"></bwu-bind-html>
+    <bwu-bind-html id="standardElementWithHtml5Validator"
+                   use-light-dom html="[[standardElement]]"
+                   validator="[[html5Validator]]"></bwu-bind-html>
+    <bwu-bind-html id="customElement" use-light-dom html="[[customElement]]"></bwu-bind-html>
+    <bwu-bind-html id="customElementWithCustomValidator" use-light-dom html="[[customElement]]"
+                   validator="[[customValidator]]"></bwu-bind-html>
   </template>
 </dom-module>
