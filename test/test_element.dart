@@ -14,7 +14,8 @@ class TestElement extends PolymerElement {
   @property final html5Validator = new dom.NodeValidatorBuilder()..allowHtml5();
 
   @property final customValidator = new dom.NodeValidatorBuilder()
-    ..allowElement('bwu-bind-html', attributes: ['id', 'html', 'use-light-dom']);
+    ..allowElement('bwu-bind-html',
+        attributes: ['id', 'html', 'use-light-dom']);
 
   @property final simpleHtml = 'xxx<br>yyy';
 

@@ -41,7 +41,7 @@ Change the defaults by assigning a `validator` or `treeSanitizer` instance to
 the static fields `BwuBindHtml.defaultValidator` or 
 `BwuBindHtml.defaultTreeSanitizer`.
 
-Note 
+## Note 
    
 For examples see the [unit tests](https://github.com/bwu-dart/bwu_bind_html/blob/master/test/test_element.html)    
 

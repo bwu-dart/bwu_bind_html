@@ -11,7 +11,7 @@ import 'package:bwu_bind_html/bwu_bind_html.dart';
 import 'test_element.dart';
 
 // Silence analyzer [TestElement]
-main() async {
+Future main() async {
   await initPolymer();
   test('content added to *local* DOM using HTML binding', () {
     BwuBindHtml bindHtml = dom.querySelector('#simpleLocal');

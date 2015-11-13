@@ -5,6 +5,10 @@ packages:
     description: analyzer
     source: hosted
     version: "0.26.1+14"
+  ansicolor:
+    description: ansicolor
+    source: hosted
+    version: "0.0.9"
   args:
     description: args
     source: hosted
@@ -21,6 +25,10 @@ packages:
     description: browser
     source: hosted
     version: "0.10.0+2"
+  bwu_grinder_tasks:
+    description: bwu_grinder_tasks
+    source: hosted
+    version: "0.1.1-dev.1"
   charcode:
     description: charcode
     source: hosted
@@ -57,6 +65,10 @@ packages:
     description: glob
     source: hosted
     version: "1.0.5"
+  grinder:
+    description: grinder
+    source: hosted
+    version: "0.8.0+1"
   html:
     description: html
     source: hosted
@@ -85,6 +97,10 @@ packages:
     description: mime
     source: hosted
     version: "0.9.3"
+  mockable_filesystem:
+    description: mockable_filesystem
+    source: hosted
+    version: "0.0.3"
   package_config:
     description: package_config
     source: hosted
@@ -149,6 +165,10 @@ packages:
     description: string_scanner
     source: hosted
     version: "0.1.4"
+  supports_color:
+    description: supports_color
+    source: hosted
+    version: "0.1.1"
   test:
     description: test
     source: hosted
@@ -157,6 +177,10 @@ packages:
     description: typed_data
     source: hosted
     version: "1.1.1"
+  unscripted:
+    description: unscripted
+    source: hosted
+    version: "0.6.2"
   utf:
     description: utf
     source: hosted

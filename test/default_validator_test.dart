@@ -11,7 +11,7 @@ import 'package:bwu_bind_html/bwu_bind_html.dart';
 import 'default_validator_test_element.dart';
 
 // Silence analyzer [TestElement]
-main() async {
+Future main() async {
   BwuBindHtml.defaultValidator = new dom.NodeValidatorBuilder.common()
     ..allowElement('bwu-bind-html',
         attributes: ['id', 'html', 'use-light-dom']);

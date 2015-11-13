@@ -1,0 +1,25 @@
+# File set description: lists of patterns to include/exclude
+files:
+  include:
+    - '**/lib/**'
+    - '**/test/**'
+    - '**/tool/**'
+  exclude:
+
+# Rule sets; ignore for now rule set inheritance and externally contributed rules
+# Basic format:
+#  [group]:
+#    [name]:
+#      ... config
+rules:
+#  style_guide:
+#    unnecessary_getters: false
+#  pub:
+#    package_names:
+#      enabled: false # longer form of package_names: false
+  lint:
+    unnecessary_brace_in_string_interp: false
+    always_specify_types: false
+    avoid_as: false
+    type_annotate_public_apis: false # TODO(zoechi) dart-lang/linter/issues/153
+

@@ -14,6 +14,8 @@ dependencies:
   web_components: ^0.12.0
 
 dev_dependencies:
+  bwu_grinder_tasks: '^0.1.0'
+  grinder: '^0.8.0'
   test: ^0.12.5+1
 
 transformers:
